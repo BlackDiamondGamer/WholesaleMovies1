@@ -1,55 +1,62 @@
-<!DOCTYPE html>
-<html>
-<head>
+*{
+	margin: 0;
+	padding: 0;
+}
 
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Josefin+Sans&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+body{
+	font-family: 'Fredoka', sans-serif;
+	font-family: 'Josefin Sans', sans-serif;
+	font-family: 'Roboto Condensed', sans-serif;
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>WholesaleMovies</title>
-	<link rel="stylesheet" type="text/css" href="run.css">
-</head>
-<body>
-	<section class="header">
-		<nav>
-			<a href="index.html"><img src="WholesaleMovies_logo.png">
-			</a>
-		</nav>
-		<hr>
-			<div class="nav-link">
-			<ul class="nav">
+	background-color: #121738;
+}
 
-		         <li><a href="#Home">Home</a></li>
-		         <li><a href="#About">About</a></li>
-		         <li><a href="#Work">Help</a></li>
-		         <li><a href="#Services">Services</a></li>
-		         <li><a href="#Contact">Contact</a></li>
-			</ul>
-    <hr>
-			</div>
-	</section>
-	<div class="search-bar">
+.header{
+	width: 100%;
+	background-color: #25262C;
+	position: relative;
+	background-size: cover;
+}
 
-		<div class="search-bar2">
-	<input type="search" value="" id="search" onchange="openPage()">
-		</div>
-		
-    <script>
-        function openPage() {
-            var x = document.getElementById("search").value;
+nav{
+	display: flex;
+	padding: 2% 6%;
+	justify-content: space-between;
+	align-items: center;
+}
 
-            if (x === "dog") {
-                window.open("https://www.google.co.in/");
-            }
+nav img{
+	width: 100%;
+}
 
-            if (x === "cat") {
-                window.open("https://www.google.co.in/");
-            }
+.nav {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
 
-        }
-    </script>
-	</div>
-</body>
-</html>
+.nav li {
+    display: inline-block;
+    padding: 0 10px 10px 10px;
+    font-size: 15px
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.nav li a:hover {
+    color: #1C86EE;
+    font-weight: bold; 
+}
+
+.search-bar2{
+	padding-left: 100px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	background-color: #25262C;
+}
