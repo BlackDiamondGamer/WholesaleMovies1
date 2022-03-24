@@ -8,7 +8,7 @@ body{
 	font-family: 'Josefin Sans', sans-serif;
 	font-family: 'Roboto Condensed', sans-serif;
 
-	background-color: #000B4E;
+	background-color: #121738;
 }
 
 .header{
@@ -56,4 +56,7 @@ nav img{
 
 .search-bar2{
 	padding-left: 100px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	background-color: #25262C;
 }
