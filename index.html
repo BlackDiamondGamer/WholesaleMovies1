@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fredoka&family=Josefin+Sans&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WholesaleMovies</title>
+	<link rel="stylesheet" type="text/css" href="run.css">
+</head>
+<body>
+	<section class="header">
+		<nav>
+			<a href="index.html"><img src="WholesaleMovies_logo.png">
+			</a>
+		</nav>
+		<hr>
+			<div class="nav-link">
+			<ul class="nav">
+
+		         <li><a href="#Home">Home</a></li>
+		         <li><a href="#About">About</a></li>
+		         <li><a href="#Work">Help</a></li>
+		         <li><a href="#Services">Services</a></li>
+		         <li><a href="#Contact">Contact</a></li>
+			</ul>
+    <hr>
+			</div>
+	</section>
+	<div class="search-bar">
+
+		<div class="search-bar2">
+	<input type="search" value="" id="search" onchange="openPage()">
+		</div>
+		
+    <script>
+        function openPage() {
+            var x = document.getElementById("search").value;
+
+            if (x === "dog") {
+                window.open("https://www.google.co.in/");
+            }
+
+            if (x === "cat") {
+                window.open("https://www.google.co.in/");
+            }
+
+        }
+    </script>
+	</div>
+</body>
+</html>
